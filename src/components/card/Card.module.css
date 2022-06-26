@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+}
+.topCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather{
+    transform: rotate(270deg);
+}
+
+.name{
+    font-size: 2rem;
+padding: 10px;
+margin: 0;
+
+}
+
+.img{
+    background-color: orange;
+}
+
+.description{
+text-transform: capitalize;
+font-size: .8rem;
+}
+.temp{
+font-size: 3.5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footerItem{
+    background-color: #0f0b2654;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+    font-size: .7rem;
+}
