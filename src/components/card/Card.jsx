@@ -9,7 +9,7 @@ export default function Card({ data }) {
   const urlImg = "http://openweathermap.org/img/w/";
 
   return (
-    <div>
+    <div className={styles.container}>
       <p className={styles.name}>{data.name}</p>
 
       <div className={styles.topCard}>

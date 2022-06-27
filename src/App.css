@@ -16,7 +16,7 @@
 }
 
 input{
-  min-width: 350px;
+ width: 350px;
   height: 30px;
   font-size: 1rem;
   text-transform: capitalize;
@@ -38,5 +38,33 @@ button{
 button:hover{
   background-color: #282673;
 
+}
+
+.tilt{
+  color: "white";
+  background-color: #282673;
+   width: 550px;
+   border-radius: 10px;
+}
+.logoIcon{
+  width: 350px;
+  height: 175px;
+}
+@media (max-width: 350px) {
+  input {
+    width: 90%;
+  }
+  .logoIcon{
+    width: 95%;
+    height: 25vh;
+  }
+  
+}
+@media (max-width: 550px) {
+  .tilt {
+    width: 95%;
+  }
+ 
+  
 }
 

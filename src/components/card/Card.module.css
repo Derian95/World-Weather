@@ -1,5 +1,6 @@
 .container{
     width: 100%;
+    
 }
 .topCard{
     display: flex;
@@ -56,3 +57,23 @@ font-size: 3.5rem;
     padding: 2px;
     font-size: .7rem;
 }
+
+
+
+  @media (max-width: 450px) {
+    .footer {
+      flex-direction: column;
+    }
+    .footerItem{
+        width: 100%;
+        flex-direction: row;
+    }
+    .topCard{
+      flex-direction: column;
+
+    }
+    .weather{
+        transform: rotate(0deg);
+    }
+    
+  }

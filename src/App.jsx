@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src={ImgLogo} alt="img" width={350} height={175} />
+      <img src={ImgLogo} alt="img" className="logoIcon" />
       <input
         type="text"
         onChange={(e) => setNameCity(e.target.value)}
@@ -60,7 +60,7 @@ function App() {
         <Tilt
           tiltMaxAngleX={5}
           tiltMaxAngleY={5}
-          style={{ color: "white", backgroundColor: "#282673", width: "550px" }}
+          className="tilt"
         >
           <Card data={data} />
         </Tilt>
