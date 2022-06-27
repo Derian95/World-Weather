@@ -59,7 +59,6 @@ export default function Icon() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <motion.circle
-      strokeWidth={15}
       variants={circleVariants}
       cx="250" cy="250" r="236.5" stroke="#8372F2" stroke-width="70" />
 
