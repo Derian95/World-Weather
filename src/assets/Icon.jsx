@@ -60,7 +60,7 @@ export default function Icon() {
     >
       <motion.circle
       variants={circleVariants}
-      cx="250" cy="250" r="236.5" stroke="#8372F2" stroke-width="70" />
+      cx="250" cy="250" r="236.5" stroke="#8372F2" stroke-width="7" />
 
       <motion.path
         variants={pathVariants}
